@@ -226,7 +226,7 @@ main{
 }
 
 #certification .com_link:hover{
-    text-shadow: 2px 2px 4px #000000;
+   color: #000;
 }
 
 #accomplishments ul{
@@ -236,4 +236,11 @@ main{
 #accomplishments strong{
     display: block;
     padding-bottom: 10px;
+}
+
+/* Print  */
+@media print {
+    body{
+        background-color: #000;
+    }
 }
